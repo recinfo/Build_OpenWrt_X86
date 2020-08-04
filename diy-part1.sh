@@ -15,3 +15,6 @@
 
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
+#Add The Theme：luci-
+git clone https://github.com/P3TERX/xxx package/xxx
